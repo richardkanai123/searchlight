@@ -28,11 +28,11 @@
     <header>
       <!-- logo on the header -->
       <section class="header-logo">
-        <img src="./resources/logo_image-removebg.png" alt="SearchLight Logo" />
+        <a href="#Home"> SearchLight </a>
       </section>
 
       <!-- navigation menu -->
-      <nav>
+      <nav role="navigation">
         <ul class="nav-links-list">
           <li><a class="nav-link" href="">Home</a></li>
           <li><a class="nav-link" href="">About Us</a></li>
@@ -68,8 +68,30 @@
           <i class="bi-whatsapp" role="img" aria-label="GitHub"></i>
         </a>
       </section>
-    </header>
 
-    <script src="app.js"></script>
+      <!-- header end -->
+    </header>
+    <!-- header closed -->
+
+    <!-- home banner -->
+    <div class="Home_banner" role="banner">
+      <!-- blurred overlay -->
+      <div class="banner_overlay">
+        <!-- transparent logo-->
+        <section class="banner_image">
+          <img
+            src="./resources/logo_image-removebg.png"
+            alt="SearchLight Main Logo image"
+          />
+        </section>
+
+        <!-- tagline -->
+        <!-- <section class="TaglineHolder"> -->
+        <span class="tagline">Here to make text speak for you!</span>
+        <!-- </section> -->
+      </div>
+    </div>
+
+    <script src="./app.js" type="module"></script>
   </body>
 </html>
