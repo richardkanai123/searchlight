@@ -1,3 +1,12 @@
+:root {
+  --PurpleRoyal: #57008b;
+  --CrimsonUA: #a71d31;
+  --lightShine: #f1f0cc;
+  --Ecru: #d5bf86;
+  --Shadow: #8d775f;
+  --highlight: #fdb03d;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +16,5 @@
 body {
   align-items: center;
   text-align: center;
+  background-color: aqua;
 }
